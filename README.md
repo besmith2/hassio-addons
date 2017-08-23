@@ -9,9 +9,7 @@ Check out [Home Assistant][hass.io]
 
 
 ## Installation
- [Follow the official instructions](https://home-assistant.io/hassio/installing_third_party_addons/) 
-
- and use the following URL: ```https://github.com/besmith2/hassio-addons```
+ [Follow the official instructions](https://home-assistant.io/hassio/installing_third_party_addons/) and use the following URL: ```https://github.com/besmith2/hassio-addons```
  
 ## License
 
