@@ -1,20 +1,3 @@
-[hass.io]: www.hass.io
-
-
-# hassio-addons
-
-Repository for hass.io add-ons
-
-Check out [Home Assistant][hass.io]
-
-
-## Installation
- [Follow the official instructions](https://home-assistant.io/hassio/installing_third_party_addons/) 
-
- and use the following URL: ```https://github.com/besmith2/hassio-addons```
- 
-## License
-
 MIT License
 
 Copyright (c) 2017 Franck Nijhof
@@ -36,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
