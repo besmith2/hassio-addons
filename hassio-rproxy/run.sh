@@ -11,4 +11,4 @@ echo CONFIG_DIR
 echo DOMAIN
 echo $(ls)
 echo $(ls rproxy/)
-./rproxy/rproxy.py --list
+python rproxy/rproxy.py --list
