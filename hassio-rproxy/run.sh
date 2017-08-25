@@ -24,7 +24,7 @@ if [[ ! -z $(jq --raw-output ".tivo" $CONFIG_PATH) ]]; then
 fi
 
 if [[ ! -z $(jq --raw-output ".commandlineoptions" $CONFIG_PATH) ]]; then
-    ARGS="$ARGS $(jq --raw-output ".commandlineoptions" $CONFIG_PATH)"
+    ARGS="$(jq --raw-output ".commandlineoptions" $CONFIG_PATH)"
 fi
 
 
