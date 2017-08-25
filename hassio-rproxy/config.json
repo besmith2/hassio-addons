@@ -1,6 +1,6 @@
 {
   "name": "hassio-rproxy",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "slug": "hassio-rproxy",
   "description": "Remote Proxy for TiVo Thanks to the awesome work of William McBrine https://github.com/wmcbrine",
   "url": "https://github.com/besmith2/hassio-addons/tree/master/hassio-rproxy",

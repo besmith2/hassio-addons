@@ -10,7 +10,7 @@ OPTIONS=$(jq --raw-output ".commandlineoptions" $CONFIG_PATH)
 TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
 
 ARGS=""
-if [ -z "$ADDRESS"]
+if [ -z "$ADDRESS" ]
 then
     ARGS .= " -a $ADDRESS"
 fi
