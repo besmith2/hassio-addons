@@ -3,7 +3,7 @@ FROM %%BASE_IMAGE%%
 ENV LANG C.UTF-8
 
 RUN apk add --no-cache jq git python3 \
-        && git clone https://github.com/wmcbrine/rproxy.git@master
+        && git clone https://github.com/wmcbrine/rproxy
 
 
 COPY run.sh /
