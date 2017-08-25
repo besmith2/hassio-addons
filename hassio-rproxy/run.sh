@@ -9,13 +9,22 @@ PORT=$(jq --raw-output ".port" $CONFIG_PATH)
 OPTIONS=$(jq --raw-output ".commandlineoptions" $CONFIG_PATH)
 TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
 
-ARGS=[ ! -z "$ADDRESS" ] && " -a $ADDRESS"
+export ARGS=""
+
+if [ ! -z "$ADDRESS" ]; then
+    ARGS="$ARGS -a $ADDRESS"
+fi
+if [ ! -z "$PORT" ]; then
+    ARGS="$ARGS -p $PORT"
+fi
+
+
 
 echo "$ARGS"
 
 echo CONFIG_PATH
 echo CONFIG_DIR
-echo "$DOMAIN"
+echo "$ADDRESS"
 echo $(ls)
 echo $(ls rproxy/)
 python2 /rproxy/rproxy.py --list
