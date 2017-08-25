@@ -12,6 +12,7 @@ Check out [Home Assistant][hass.io]
 
 ## Addons
 These are the addons that I would like to work on. Not in any particular order.
+
 Addon|Description|Inspiration
 :---:|:---------:|:---------:
 |hassio-raproxy|Tivo Crestron Proxy| [raproxy][raproxy] <br/>Author: [William McBrine][wmcbrine]
