@@ -4,7 +4,18 @@ set -e
 CONFIG_PATH=/data/options.json
 CONFIG_DIR=/config/hadaemon
 
-DOMAIN=$(jq --raw-output ".address" $CONFIG_PATH)
+ADDRESS=$(jq --raw-output ".address" $CONFIG_PATH)
+PORT=$(jq --raw-output ".port" $CONFIG_PATH)
+OPTIONS=$(jq --raw-output ".commandlineoptions" $CONFIG_PATH)
+TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
+
+ARGS=""
+if [ -z "$ADDRESS"]
+then
+    ARGS .= " -a $ADDRESS"
+fi
+
+echo "$ARGS"
 
 echo CONFIG_PATH
 echo CONFIG_DIR
