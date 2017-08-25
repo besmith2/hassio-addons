@@ -2,8 +2,8 @@
 [hmeforpython]:https://github.com/wmcbrine/hmeforpython
 [raproxy]:https://github.com/wmcbrine/rproxy
 [wmcbrine]:https://github.com/wmcbrine
-[hassio-hmeserver]:https://github.com/besmith2/hassio-hmeserver
-[hassio-raproxy]:https://github.com/besmith2/hassio-raproxy
+[hassio-hmeserver]:https://github.com/besmith2/hassio-addons/tree/master/hassio-hmeserver
+[hassio-raproxy]:https://github.com/besmith2/hassio-addons/tree/master/hassio-raproxy
 # hassio-addons
 
 Repository for hass.io add-ons
@@ -15,8 +15,8 @@ These are the addons that I would like to work on. Not in any particular order.
 
 Addon|Description|Inspiration
 |:-:|:-:|:-:|
-|[hassio-raproxy]|Tivo Crestron Proxy| [raproxy][raproxy] <br/>Author: [William McBrine][wmcbrine]
-|[hassio-hmeserver]|Tivo HME Server| [hmeforpython][hmeforpython]<br/>Author: [William McBrine][wmcbrine] 
+|[hassio-raproxy][hassio-raproxy]|Tivo Crestron Proxy| [raproxy][raproxy] <br/>Author: [William McBrine][wmcbrine]
+|[hassio-hmeserver][hassio-hmeserver]|Tivo HME Server| [hmeforpython][hmeforpython]<br/>Author: [William McBrine][wmcbrine] 
 
 
 
