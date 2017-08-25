@@ -15,7 +15,6 @@
   "map": ["config:rw"],
   "host_network":true,
   "ports":{
-    "31339/tcp":31339,
-    "5353/udp": 5353
+    "31339/tcp":31339
   }
 }
