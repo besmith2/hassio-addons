@@ -9,3 +9,4 @@ DOMAIN=$(jq --raw-output ".domain" $CONFIG_PATH)
 echo CONFIG_PATH
 echo CONFIG_DIR
 echo DOMAIN
+echo $(ls)
