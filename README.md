@@ -1,37 +1,25 @@
-[hass.io]: www.hass.io
-
-
+[hass.io]:www.hass.io
+[hmeforpython]:https://github.com/wmcbrine/hmeforpython
+[raproxy]:https://github.com/wmcbrine/rproxy
+[wmcbrine]:https://github.com/wmcbrine
+[hassio-hmeserver]:https://github.com/besmith2/hassio-hmeserver
+[hassio-raproxy]:https://github.com/besmith2/hassio-raproxy
 # hassio-addons
 
 Repository for hass.io add-ons
 
 Check out [Home Assistant][hass.io]
 
+## Addons
+These are the addons that I would like to work on. Not in any particular order.
+| Addon | Description | Inspiration |
+|:-:|:-:|:-:|
+|hassio-raproxy|Tivo Crestron Proxy| [raproxy][raproxy] <br/>Author: [William McBrine][wmcbrine]
+|hassio-hmeserver|Tivo HME Server| [hmeforpython][hmeforpython]<br/>Author: [William McBrine][wmcbrine] 
+
+
+
 
 ## Installation
  [Follow the official instructions](https://home-assistant.io/hassio/installing_third_party_addons/) and use the following URL: ```https://github.com/besmith2/hassio-addons```
  
-## License
-
-MIT License
-
-Copyright (c) 2017 Franck Nijhof
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
