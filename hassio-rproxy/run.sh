@@ -8,7 +8,7 @@ DOMAIN=$(jq --raw-output ".address" $CONFIG_PATH)
 
 echo CONFIG_PATH
 echo CONFIG_DIR
-echo DOMAIN
+echo "$DOMAIN"
 echo $(ls)
 echo $(ls rproxy/)
 python2 /rproxy/rproxy.py --list
