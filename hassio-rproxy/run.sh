@@ -12,7 +12,7 @@ TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
 ARGS=""
 if [ ! -z "$ADDRESS" ]
 then
-    ARGS .= " -a $ADDRESS"
+    ARGS = "$ARGS -a $ADDRESS"
 fi
 
 echo "$ARGS"
