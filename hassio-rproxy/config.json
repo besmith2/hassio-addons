@@ -1,0 +1,24 @@
+{
+  "name": "hassio-rproxy",
+  "version": "0.0.1",
+  "slug": "hassio-rproxy",
+  "description": "Remote Proxy for TiVo Thanks to William McBrine https://github.com/wmcbrine",
+  "url": "https://github.com/besmith2/hassio-addons/tree/master/hassio-rproxy",
+  "startup": "system",
+  "boot": "auto",
+  "options": {
+    "address":"192.168.0.1",
+    "port":"31339",
+    "commandlineoptions":"--list",
+    "tivo":""
+  },
+  "schema": {
+    "address": "str",
+    "port": "port",
+    "commandlineoptions":"str",
+    "tivo":"str"
+
+  },
+  "map": ["config:rw"],
+  "host_network": true
+}
