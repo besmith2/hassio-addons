@@ -9,11 +9,7 @@ PORT=$(jq --raw-output ".port" $CONFIG_PATH)
 OPTIONS=$(jq --raw-output ".commandlineoptions" $CONFIG_PATH)
 TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
 
-ARGS=""
-if [ ! -z "$ADDRESS" ]
-then
-    ARGS = "$ARGS -a $ADDRESS"
-fi
+ARGS=[ ! -z "$ADDRESS" ] && " -a $ADDRESS"
 
 echo "$ARGS"
 
