@@ -8,5 +8,6 @@ RUN apk add --no-cache jq git python3 \
 
 COPY run.sh /
 RUN chmod a+x /run.sh
-
+RUN chmod a+x /rproxy/rproxy.py
+#RUN chmod a+x /rproxy/rproxy.py
 CMD [ "/run.sh" ]
