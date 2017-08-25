@@ -1,6 +1,6 @@
 {
   "name": "hassio-rproxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "hassio-rproxy",
   "description": "Remote Proxy for TiVo Thanks to the awesome work of William McBrine https://github.com/wmcbrine",
   "url": "https://github.com/besmith2/hassio-addons/tree/master/hassio-rproxy",
@@ -12,6 +12,5 @@
   "schema": {
     "commandlineoptions":"str"
   },
-  "map": ["config:rw"],
-  "host_network": true
+  "map": ["config:rw"]
 }
