@@ -10,4 +10,4 @@ echo CONFIG_PATH
 echo CONFIG_DIR
 echo DOMAIN
 echo $(ls)
-echo $(ls rpath/)
+echo $(ls rproxy/)
