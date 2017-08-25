@@ -11,12 +11,16 @@ TIVO=$(jq --raw-output ".tivo" $CONFIG_PATH)
 
 export ARGS=""
 
-if [ ! -z "$ADDRESS" ]; then
-    ARGS="$ARGS -a $ADDRESS"
+if [[ ! -z $(jq --raw-output ".address" $CONFIG_PATH) ]]; then
+    ARGS="$ARGS -a $(jq --raw-output ".address" $CONFIG_PATH)"
 fi
 if [ ! -z "$PORT" ]; then
     ARGS="$ARGS -p $PORT"
 fi
+if [ ! -z "$PORT" ]; then
+    ARGS="$ARGS -p $PORT"
+fi
+
 
 
 
